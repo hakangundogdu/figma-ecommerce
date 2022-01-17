@@ -1,14 +1,51 @@
-.App {
-  text-align: center;
-}
+@import '../styles/variables';
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.hero {
+  margin-bottom: 1.5rem;
+
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h1 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 3rem;
+    color: $color-text-primary;
+    margin: 1rem auto;
+  }
+
+  p {
+    text-align: center;
+    font-weight: normal;
+    font-size: 1.2rem;
+    color: $color-text-secondary;
+    margin-bottom: 1.5rem;
+  }
+
+  button {
+    background-color: $color-secondary;
+    color: $color-text-primary;
+    border: 1px solid black;
+    padding: 0.5rem 1.5rem;
+    &:hover {
+      background-color: $color-primary;
+      color: $color-white;
+    }
+  }
+
+  .box {
+    background-color: #c4c4c4;
+    height: 500px;
+    margin: 1.5rem auto;
+  }
+
+  .icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 1.5rem;
+  }
 }
