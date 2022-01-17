@@ -1,0 +1,12 @@
+@use './styles/variables';
+@use './styles/base';
+@use './styles/typography';
+@use './App.scss';
+
+.centered {
+  margin: 3rem auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
