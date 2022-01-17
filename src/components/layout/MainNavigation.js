@@ -1,9 +1,28 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import classes from './MainNavigation.module.scss';
+import { HiOutlineSearch, HiOutlineShoppingBag } from 'react-icons/hi';
 
 const MainNavigation = () => {
-  return <div className={classes.main}>Navigation</div>;
+  return (
+    <nav className={classes.nav}>
+      <div className={classes.icon}>Ecommerce</div>
+      <div className={classes.links}>
+        <Link to="#">Shop</Link>
+        <Link to="#">Stories</Link>
+        <Link to="#">About</Link>
+      </div>
+      <div className={classes.search}>
+        <HiOutlineSearch />
+        <input type="text" className={classes.searchbar} placeholder="Search" />
+      </div>
+      <div className={classes.rightnav}>
+        <HiOutlineShoppingBag />
+        <p className={classes.items}>3</p>
+        <Link to="#">Login</Link>
+      </div>
+    </nav>
+  );
 };
 
 export default MainNavigation;

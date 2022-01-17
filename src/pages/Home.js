@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div className="App">
       <header className="App-header">
-        <p>Figma Ecommerce</p>
+        <p>Better clothing for the planet</p>
       </header>
     </div>
   );
