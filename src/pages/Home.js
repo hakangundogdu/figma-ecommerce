@@ -13,7 +13,9 @@ const Home = () => {
         </p>
         <button className={classes.button}>Shop All</button>
       </header>
-      <div className={classes.box}></div>
+      <div className={classes.box}>
+        <img src="/assets/cover.jpg" alt="clothes" />
+      </div>
       <div className={classes.icons}>
         <img src="/assets/image1.png" width="230px" height="34px" alt="icon" />
         <img src="/assets/image2.png" width="119px" height="32px" alt="icon" />
