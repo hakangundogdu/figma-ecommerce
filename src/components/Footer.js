@@ -7,8 +7,8 @@ const Footer = () => {
       <div className={classes.left}>
         <h2>Sign up for our newsletter</h2>
         <p>
-          Be the first to know about our special offers, new product launches,
-          and events
+          Be the first to know about our special offers, new product <br />
+          launches, and events
         </p>
         <form className={classes.form}>
           <input type="text" placeholder="Email Address" />
