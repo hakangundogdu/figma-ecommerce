@@ -5,8 +5,10 @@ button {
   color: $color-text-primary;
   border: 1px solid black;
   padding: 0.5rem 1.5rem;
-  &:hover {
+  &:hover,
+  &:focus {
     background-color: $color-primary;
     color: $color-white;
+    outline: none;
   }
 }
