@@ -6,9 +6,11 @@ import { HiOutlineSearch, HiOutlineShoppingBag } from 'react-icons/hi';
 const MainNavigation = () => {
   return (
     <nav className={classes.nav}>
-      <div className={classes.icon}>Ecommerce</div>
+      <Link to="/" className={classes.icon}>
+        Ecommerce
+      </Link>
       <div className={classes.links}>
-        <Link to="#">Shop</Link>
+        <Link to="/Shop">Shop</Link>
         <Link to="#">Stories</Link>
         <Link to="#">About</Link>
       </div>

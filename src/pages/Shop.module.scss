@@ -1,0 +1,15 @@
+@import '../styles/variables';
+
+header {
+  padding: 2rem 0;
+
+  h2 {
+    font-size: 2rem;
+  }
+}
+
+.products {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}

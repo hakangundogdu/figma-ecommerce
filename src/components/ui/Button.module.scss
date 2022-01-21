@@ -1,0 +1,12 @@
+@import '../../styles/variables';
+
+button {
+  background-color: $color-secondary;
+  color: $color-text-primary;
+  border: 1px solid black;
+  padding: 0.5rem 1.5rem;
+  &:hover {
+    background-color: $color-primary;
+    color: $color-white;
+  }
+}

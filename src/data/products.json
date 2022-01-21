@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1",
+    "title": "Men's Winter Jacket",
+    "description": "Lorem ipsum dolor sit amet",
+    "image": "/assets/p1.jpg",
+    "price": 99
+  },
+  {
+    "id": "2",
+    "title": "Men's Winter Jacket",
+    "description": "Lorem ipsum dolor sit amet",
+    "image": "/assets/p2.jpg",
+    "price": 99
+  },
+  {
+    "id": "3",
+    "title": "Men's Winter Jacket",
+    "description": "Lorem ipsum dolor sit amet",
+    "image": "/assets/p3.jpg",
+    "price": 99
+  },
+  {
+    "id": "4",
+    "title": "Men's Winter Jacket",
+    "description": "Lorem ipsum dolor sit amet",
+    "image": "/assets/p4.jpg",
+    "price": 99
+  }
+]
