@@ -10,8 +10,8 @@ const MainNavigation = () => {
         Ecommerce
       </Link>
       <div className={classes.links}>
-        <Link to="/Shop">Shop</Link>
-        <Link to="#">Stories</Link>
+        <Link to="Shop">Shop</Link>
+        <Link to="Stories">Stories</Link>
         <Link to="#">About</Link>
       </div>
       <div className={classes.search}>

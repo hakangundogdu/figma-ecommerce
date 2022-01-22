@@ -12,9 +12,7 @@ const Footer = () => {
         </p>
         <form className={classes.form}>
           <input type="text" placeholder="Email Address" />
-          <button type="submit" className={classes.button}>
-            Sign Up
-          </button>
+          <button type="submit">Sign Up</button>
         </form>
       </div>
       <div className={classes.right}>
