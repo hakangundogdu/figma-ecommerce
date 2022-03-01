@@ -10,21 +10,21 @@ const ProductDetail = () => {
     return products.find((product) => products.id === id);
   }
 
-  let product = getProduct(parseInt(id));
+  let product = getProduct(id);
 
   return (
     <div className={classes.product_detail}>
       <div className={classes.left}>
         <img
           src={product.image}
-          width="100%"
+          width="80%"
           height="auto"
           alt="{product.title}"
         />
       </div>
       <div className={classes.right}>
-        <h2>{product.title}</h2>
-        <p>${product.price}</p>
+        <h1>{product.title}</h1>
+        <h3>${product.price}</h3>
         <p>{product.description} </p>
       </div>
     </div>

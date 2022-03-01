@@ -1,29 +1,29 @@
 [
   {
     "id": "1",
-    "title": "Men's Winter Jacket",
-    "description": "Lorem ipsum dolor sit amet",
+    "title": "Men's Winter Jacket 1",
+    "description": "Revamp your style with the latest designer trends in men’s clothing or achieve a perfectly curated wardrobe thanks to our line-up of timeless pieces. ",
     "image": "/assets/p1.jpg",
     "price": 99
   },
   {
     "id": "2",
-    "title": "Men's Winter Jacket",
-    "description": "Lorem ipsum dolor sit amet",
+    "title": "Men's Winter Jacket 2",
+    "description": "Revamp your style with the latest designer trends in men’s clothing or achieve a perfectly curated wardrobe thanks to our line-up of timeless pieces. ",
     "image": "/assets/p2.jpg",
     "price": 99
   },
   {
     "id": "3",
-    "title": "Men's Winter Jacket",
-    "description": "Lorem ipsum dolor sit amet",
+    "title": "Men's Winter Jacket 3",
+    "description": "Revamp your style with the latest designer trends in men’s clothing or achieve a perfectly curated wardrobe thanks to our line-up of timeless pieces. ",
     "image": "/assets/p3.jpg",
     "price": 99
   },
   {
     "id": "4",
-    "title": "Men's Winter Jacket",
-    "description": "Lorem ipsum dolor sit amet",
+    "title": "Men's Winter Jacket 4",
+    "description": "Revamp your style with the latest designer trends in men’s clothing or achieve a perfectly curated wardrobe thanks to our line-up of timeless pieces. ",
     "image": "/assets/p4.jpg",
     "price": 99
   }

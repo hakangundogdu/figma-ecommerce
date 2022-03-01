@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Button from '../components/ui/Button';
 import classes from './Home.module.scss';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -13,8 +14,12 @@ const Home = () => {
           <br />
           Figma. You can even sync designs from your cloud storage!
         </p>
+<<<<<<< HEAD
         <Link to="/Shop">
           {' '}
+=======
+        <Link to="Shop">
+>>>>>>> 8d2849ebd6b52d069fc6336dbeda3b3f39be6f99
           <Button className={classes.button} name="Shop All" />
         </Link>
       </header>
