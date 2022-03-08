@@ -4,9 +4,14 @@ import { Link } from 'react-router-dom';
 const ProductMini = (props) => {
   return (
     <div className={classes.product}>
-      <Link to="1">
+      <Link to={props.id}>
         <div className={classes.image}>
-          <img src={props.image} width="100%" height="auto" alt="cloth" />
+          <img
+            src={`${process.env.PUBLIC_URL}/images/${props.image}.jpg`}
+            width="100%"
+            height="auto"
+            alt="cloth"
+          />
         </div>
         <h2>{props.name}</h2>
         <p> ${props.price}</p>

@@ -16,7 +16,7 @@ const ProductDetail = () => {
     <div className={classes.product_detail}>
       <div className={classes.left}>
         <img
-          src={product.image}
+          src={`${process.env.PUBLIC_URL}/images/${product.image}.jpg`}
           width="80%"
           height="auto"
           alt="{product.title}"

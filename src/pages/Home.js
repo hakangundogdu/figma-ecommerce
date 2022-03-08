@@ -19,13 +19,33 @@ const Home = () => {
         </Link>
       </header>
       <div className={classes.box}>
-        <img src="/assets/cover.jpg" alt="clothes" />
+        <img src={process.env.PUBLIC_URL + '/images/cover.jpg'} alt="clothes" />
       </div>
       <div className={classes.icons}>
-        <img src="/assets/image1.png" width="184px" height="auto" alt="icon" />
-        <img src="/assets/image2.png" width="95px" height="auto" alt="icon" />
-        <img src="/assets/image3.png" width="122px" height="auto" alt="icon" />
-        <img src="/assets/image4.png" width="142px" height="auto" alt="icon" />
+        <img
+          src={process.env.PUBLIC_URL + '/images/image1.png'}
+          width="184px"
+          height="auto"
+          alt="icon"
+        />
+        <img
+          src={process.env.PUBLIC_URL + '/images/image2.png'}
+          width="95px"
+          height="auto"
+          alt="icon"
+        />
+        <img
+          src={process.env.PUBLIC_URL + '/images/image3.png'}
+          width="122px"
+          height="auto"
+          alt="icon"
+        />
+        <img
+          src={process.env.PUBLIC_URL + '/images/image4.png'}
+          width="142px"
+          height="auto"
+          alt="icon"
+        />
       </div>
     </div>
   );
