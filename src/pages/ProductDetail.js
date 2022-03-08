@@ -5,12 +5,13 @@ import products from '../data/products.json';
 
 const ProductDetail = () => {
   const { id } = useParams();
-
+  console.log(useParams());
   function getProduct(id) {
-    return products.find((product) => products.id === id);
+    return products.find((product) => product.id === id);
   }
 
   let product = getProduct(id);
+  console.log(product);
 
   return (
     <div className={classes.product_detail}>
@@ -19,7 +20,7 @@ const ProductDetail = () => {
           src={`${process.env.PUBLIC_URL}/images/${product.image}.jpg`}
           width="80%"
           height="auto"
-          alt="{product.title}"
+          alt="productimage"
         />
       </div>
       <div className={classes.right}>

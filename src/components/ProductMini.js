@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const ProductMini = (props) => {
   return (
     <div className={classes.product}>
-      <Link to={props.id}>
+      <Link to={`/Products/${props.id}`}>
         <div className={classes.image}>
           <img
             src={`${process.env.PUBLIC_URL}/images/${props.image}.jpg`}
